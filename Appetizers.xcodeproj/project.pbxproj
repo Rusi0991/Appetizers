@@ -22,6 +22,7 @@
 		57A5D0E62A78BD8400A13CA5 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5D0E52A78BD8400A13CA5 /* AppetizerListView.swift */; };
 		57A5D0E82A78BD9900A13CA5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5D0E72A78BD9900A13CA5 /* AccountView.swift */; };
 		57A5D0EA2A78BDCE00A13CA5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5D0E92A78BDCE00A13CA5 /* OrderView.swift */; };
+		57AAE70A2A82B89C00A852C0 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE7092A82B89B00A852C0 /* AppetizerDetailView.swift */; };
 		57EE15272A7A0C2E0046DB1B /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE15262A7A0C2E0046DB1B /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		57A5D0E52A78BD8400A13CA5 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		57A5D0E72A78BD9900A13CA5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		57A5D0E92A78BDCE00A13CA5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		57AAE7092A82B89B00A852C0 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		57EE15262A7A0C2E0046DB1B /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				57A5D0E52A78BD8400A13CA5 /* AppetizerListView.swift */,
 				57A2C95D2A7D7C93006B4E57 /* AppetizerListViewModel.swift */,
+				57AAE7092A82B89B00A852C0 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				57A5D0DA2A78BC6700A13CA5 /* AppetizerTabView.swift in Sources */,
 				57A2C95A2A7AEA08006B4E57 /* NetworkManager.swift in Sources */,
 				57A2C9662A80B70F006B4E57 /* RemoteImage.swift in Sources */,
+				57AAE70A2A82B89C00A852C0 /* AppetizerDetailView.swift in Sources */,
 				57A5D0D82A78BC6700A13CA5 /* AppetizersApp.swift in Sources */,
 				57A2C9602A7D8946006B4E57 /* Alert.swift in Sources */,
 				57A5D0E62A78BD8400A13CA5 /* AppetizerListView.swift in Sources */,

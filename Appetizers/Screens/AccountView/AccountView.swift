@@ -15,7 +15,9 @@ struct AccountView: View {
             Form{
                 Section(header: Text("Personal Info")){
                     TextField("First Name", text: $viewModel.user.firstName)
+                        .autocorrectionDisabled()
                     TextField("Last Name", text: $viewModel.user.lastName)
+                        .autocorrectionDisabled()
                     TextField("Email", text: $viewModel.user.email)
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
@@ -33,14 +35,17 @@ struct AccountView: View {
                 }
                 Section(header: Text("Requests")){
                     Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
-                    Toggle("Frequen Refills", isOn: $viewModel.user.frequentRefills)
+                    Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
                 }
                 .toggleStyle(SwitchToggleStyle(tint: .brandPrimary))
 
                         }
                     .navigationTitle("👨‍💼Account")
         }
-        .alert(item: $viewModel.user.alertItem){ alertItem in
+        .onAppear{
+            viewModel.retreiveUser()
+        }
+        .alert(item: $viewModel.alertItem){ alertItem in
             Alert(title: alertItem.title,
                   message: alertItem.message,
                   dismissButton: alertItem.dismissButton)

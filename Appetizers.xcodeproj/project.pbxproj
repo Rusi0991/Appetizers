@@ -29,6 +29,7 @@
 		57AAE7152A856C8300A852C0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE7142A856C8300A852C0 /* String+Ext.swift */; };
 		57AAE7172A875D5700A852C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE7162A875D5700A852C0 /* User.swift */; };
 		57AAE71A2A88688900A852C0 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE7192A88688900A852C0 /* EmptyState.swift */; };
+		57AAE71C2A899D5A00A852C0 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE71B2A899D5A00A852C0 /* Order.swift */; };
 		57EE15272A7A0C2E0046DB1B /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE15262A7A0C2E0046DB1B /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		57AAE7142A856C8300A852C0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		57AAE7162A875D5700A852C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		57AAE7192A88688900A852C0 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		57AAE71B2A899D5A00A852C0 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		57EE15262A7A0C2E0046DB1B /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 			children = (
 				57EE15262A7A0C2E0046DB1B /* Appetizer.swift */,
 				57AAE7162A875D5700A852C0 /* User.swift */,
+				57AAE71B2A899D5A00A852C0 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				57A2C95C2A7B5539006B4E57 /* APError.swift in Sources */,
 				57AAE7112A832A0000A852C0 /* XDismissButton.swift in Sources */,
 				57A2C9582A7AD9BA006B4E57 /* AppetizerListCell.swift in Sources */,
+				57AAE71C2A899D5A00A852C0 /* Order.swift in Sources */,
 				57AAE7132A8563B500A852C0 /* AccountViewModel.swift in Sources */,
 				57A2C95E2A7D7C93006B4E57 /* AppetizerListViewModel.swift in Sources */,
 				57A2C9642A7F42EB006B4E57 /* Color+Ext.swift in Sources */,

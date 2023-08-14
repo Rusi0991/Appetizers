@@ -15,6 +15,8 @@ struct AppetizerListView: View {
             NavigationView {
                 List(viewModel.appetizers){ appetizer in
                     AppetizerListCell(appetizer: appetizer)
+//                        .listRowSeparator(.automatic)
+//                        .listRowSeparatorTint(.brandPrimary)
                         .onTapGesture {
                             viewModel.selectedAppetizer = appetizer
                             viewModel.isShowingDetail = true
@@ -46,6 +48,8 @@ struct AppetizerListView: View {
 
 struct AppetizerListView_Previews: PreviewProvider {
     static var previews: some View {
-        AppetizerListView()
+        let order = Order()
+                return AppetizerListView()
+                    .environmentObject(order)
     }
 }

@@ -30,6 +30,7 @@
 		57AAE7172A875D5700A852C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE7162A875D5700A852C0 /* User.swift */; };
 		57AAE71A2A88688900A852C0 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE7192A88688900A852C0 /* EmptyState.swift */; };
 		57AAE71C2A899D5A00A852C0 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE71B2A899D5A00A852C0 /* Order.swift */; };
+		57AAE71E2A89C73600A852C0 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AAE71D2A89C73600A852C0 /* CustomModifiers.swift */; };
 		57EE15272A7A0C2E0046DB1B /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE15262A7A0C2E0046DB1B /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		57AAE7162A875D5700A852C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		57AAE7192A88688900A852C0 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		57AAE71B2A899D5A00A852C0 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		57AAE71D2A89C73600A852C0 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		57EE15262A7A0C2E0046DB1B /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +174,7 @@
 				57A2C9732A81FA99006B4E57 /* Image */,
 				57A2C9722A81FA80006B4E57 /* Cells */,
 				57A2C9702A81FA37006B4E57 /* UIKitComponents */,
+				57AAE71D2A89C73600A852C0 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				57AAE70A2A82B89C00A852C0 /* AppetizerDetailView.swift in Sources */,
 				57A5D0D82A78BC6700A13CA5 /* AppetizersApp.swift in Sources */,
 				57A2C9602A7D8946006B4E57 /* Alert.swift in Sources */,
+				57AAE71E2A89C73600A852C0 /* CustomModifiers.swift in Sources */,
 				57A5D0E62A78BD8400A13CA5 /* AppetizerListView.swift in Sources */,
 				57A5D0EA2A78BDCE00A13CA5 /* OrderView.swift in Sources */,
 			);

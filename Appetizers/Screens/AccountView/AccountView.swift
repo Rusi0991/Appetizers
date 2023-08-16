@@ -65,7 +65,7 @@ struct AccountView: View {
                         }
                     }
         }
-        .onAppear{
+        .task {
             viewModel.retreiveUser()
         }
         .alert(item: $viewModel.alertItem){ alertItem in

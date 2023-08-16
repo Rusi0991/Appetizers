@@ -117,7 +117,6 @@
 			children = (
 				57A2C96E2A81F986006B4E57 /* Alerts and Errors */,
 				57A2C96D2A81F93E006B4E57 /* Extensions */,
-				57A2C96C2A81F92C006B4E57 /* Managers */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -216,6 +215,7 @@
 			children = (
 				57A2C96F2A81FA2E006B4E57 /* Model */,
 				57A2C96B2A81F8FD006B4E57 /* Utilities */,
+				57A2C96C2A81F92C006B4E57 /* Managers */,
 				57A2C9712A81FA6F006B4E57 /* Views */,
 				57A2C9672A81F84D006B4E57 /* Screens */,
 				57A5D0D72A78BC6700A13CA5 /* AppetizersApp.swift */,

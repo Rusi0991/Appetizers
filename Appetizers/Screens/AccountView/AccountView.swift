@@ -10,18 +10,36 @@ import SwiftUI
 struct AccountView: View {
     
     @StateObject var viewModel = AccountViewModel()
+    @FocusState private var focusTextField : FormTextfield?
+    
+    enum FormTextfield{
+        case firstname, lastname, email
+    }
+    
     var body: some View {
         NavigationView {
             Form{
                 Section(header: Text("Personal Info")){
                     TextField("First Name", text: $viewModel.user.firstName)
                         .autocorrectionDisabled()
+                        .focused($focusTextField, equals: .firstname)
+                        .onSubmit {focusTextField = .lastname}
+                        .submitLabel(.next)
+                    
                     TextField("Last Name", text: $viewModel.user.lastName)
                         .autocorrectionDisabled()
+                        .focused($focusTextField, equals: .lastname)
+                        .onSubmit {focusTextField = .email}
+                        .submitLabel(.next)
+
                     TextField("Email", text: $viewModel.user.email)
+                        .focused($focusTextField, equals: .email)
+                        .onSubmit {focusTextField = nil}
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
-                        .disableAutocorrection(true)
+                        .autocorrectionDisabled()
+                        .submitLabel(.continue)
+
                     
                     DatePicker("Birthdate", selection: $viewModel.user.birthdate, displayedComponents: .date)
                     
@@ -41,6 +59,11 @@ struct AccountView: View {
 
                         }
                     .navigationTitle("👨‍💼Account")
+                    .toolbar{
+                        ToolbarItem(placement: .keyboard) {
+                            Button("Dismiss") {focusTextField = nil}
+                        }
+                    }
         }
         .onAppear{
             viewModel.retreiveUser()

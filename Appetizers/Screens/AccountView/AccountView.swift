@@ -42,7 +42,8 @@ struct AccountView: View {
 
                     
                     DatePicker("Birthdate", selection: $viewModel.user.birthdate, displayedComponents: .date)
-                    
+                        
+                        
                     Button{
                         viewModel.saveChanges()
                     } label: {

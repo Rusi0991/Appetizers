@@ -25,7 +25,10 @@ struct ActivityIndicator : UIViewRepresentable{
                 Color(.systemBackground)
                     .ignoresSafeArea()
                 
-                ActivityIndicator()
+//                ActivityIndicator()
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
+                    .scaleEffect(2)
             }
         }
     }
